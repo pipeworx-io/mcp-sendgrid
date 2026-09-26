@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/sendgrid",
   "title": "Sendgrid",
   "description": "SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/sendgrid",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-sendgrid",
