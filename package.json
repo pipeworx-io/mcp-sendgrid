@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-sendgrid",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-sendgrid": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sendgrid"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-sendgrid.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/sendgrid",
   "pipeworx": {
-    "sourceHash": "v1-e4ca770650efed782bd39a98ad54072e09ebd842f25b5b7f5000f3f370a018c8",
-    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
+    "mode": "gateway",
+    "slug": "sendgrid",
+    "gatewaySlug": "sendgrid",
+    "sourceHash": "v1-46f71f7f4ba1cfc4c59fa111467b099c8efb34e36f3a334ba1f793a4baa5892a",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
