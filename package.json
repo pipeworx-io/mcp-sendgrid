@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-sendgrid",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "sendgrid",
     "gatewaySlug": "sendgrid",
-    "sourceHash": "v1-46f71f7f4ba1cfc4c59fa111467b099c8efb34e36f3a334ba1f793a4baa5892a",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-0cf2a39e671e3b4a6abb47a573f0484ca4131cb92cf7a32b9ce3aa9707a4544c",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
